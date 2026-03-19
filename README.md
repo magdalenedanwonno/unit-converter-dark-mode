@@ -1,19 +1,31 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+Unit Converter (Dark Mode Version)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This is a clean, functional web application that performs instant conversions between **Metric** and **Imperial** units. This specific version features a high-contrast **Dark Mode** design for better readability in low-light environments.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+🚀 Features
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+* **Three-Way Conversion**: Converts Length, Volume, and Mass simultaneously.
+* **Precision Results**: All calculations are rounded to **2 decimal places** for accuracy.
+* **Input Validation**: Includes an alert system to ensure a valid number is entered before converting.
+* **Optimized UI**: Features a custom-styled number input that hides default browser arrows for a cleaner look.
 
-Happy Coding!
+🛠️ Conversion Logic
+
+The application uses the following conversion constants:
+* **Length**: 1 Meter = 3.281 Feet
+* **Volume**: 1 Liter = 0.264 Gallons
+* **Mass**: 1 Kilogram = 2.204 Pounds
+
+🎨 Design (Dark Mode)
+
+This version is styled with a deep, professional color palette:
+* **Header**: Warm `Amber (#B45309)` background with `Whitesmoke` text.
+* **Main Body**: Dark `Charcoal (#1F2937)` background.
+* **Result Cards**: Muted `Slate (#374151)` cards with amber headings and grey results.
+* **Layout**: Uses **CSS Grid** and **Flexbox** for a perfectly centered, responsive layout.
+
+ 📂 Project Structure
+
+* `index.html`: Contains the semantic structure for the converter interface.
+* `index.css`: Defines the **Dark Mode** aesthetic and grid-based layout.
+* `index.js`: Handles the mathematical logic and DOM updates.
